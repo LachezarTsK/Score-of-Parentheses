@@ -14,7 +14,7 @@ public class Solution {
             }
             balance--;
             
-            // (i-1)>=0 is not necessary becasue all parentheses are balanced.
+            // (i-1)>=0 is not necessary because all parentheses are balanced.
             if (input.charAt(i - 1) == '(') {
                 totalScore += (1 << balance);
             }
